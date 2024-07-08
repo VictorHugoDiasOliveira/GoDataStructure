@@ -46,7 +46,6 @@ func (list *linkedList) ShowValues() {
 		fmt.Println("List is empty")
 		return
 	}
-
 	current := list.head
 	for current != nil {
 		fmt.Printf("%d ", current.value)
